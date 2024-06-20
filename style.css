@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
+body,h1,h2,p{
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    
+}
+h1{
+    padding: 20px 0;
+    color: #0866ff;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.form{
+    background-color: white;
+    border-radius: 5px;
+    width: 430px;
+    box-shadow: 3px 3px 3px rgb(226, 226, 226);
+    padding-bottom: 30px;
+}
+.form-top{
+    text-align: center;
+    border-bottom: 1px solid #e1e3e6;
+}
+h2{
+ padding: 5px 0 5px 0;
+ word-spacing: 2px;
+ color: #1c1e21;
+}
+p{
+    font-weight: lighter;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.form-body{
+  padding:15px 20px 10px 20px ;
+}
+.half-width{
+  display: flex;
+  justify-content: center;
+ justify-content: space-between;
+}
+.input-field{
+   padding: 8px;
+    border: 1px solid #dadbdd;
+    color: #f0f2f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.full-width{
+    display: flex;
+}
+.full-width input{
+    border: 1px solid #dadbdd;
+    width: 100%;
+}
+.small{
+    font-size: 12px;
+    color: #606770;
+    margin-top: 10px;
+}
+.dob{
+ display: flex;
+ justify-content: space-between;
+}
+select{
+    border: 1px solid #e1e3e6;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: #606770;
+    font-size: 12px;
+}
+.gender{
+    display: flex;    
+}
+.border{
+    width:100% ;
+    border: 1px solid #dadbdd;
+    margin-right: 8px;
+    padding: 6px 5px 5px 10px;
+    border-radius: 5px;
+}
+.border label{
+    color: #606770;
+    font-size: 14px;
+}
+.radio{
+  width: auto;
+  padding: 0;
+  float: right;
+}
+.form-footer{
+    padding: 0px 25px;
+
+}
+.font-style{
+    color: #606770;
+    font-size: 11px;
+}
+.font-style a,.btn-signup{
+    text-decoration: none;
+}
+.btn-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: #00a400;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 8px 55px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.link{
+    padding-top: 10px;
+    color:#1877f2 ;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.btn:hover{
+    color: #dadbdd
+}
